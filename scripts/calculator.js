@@ -86,7 +86,7 @@ $(document).ready(function() {
 
     $("#logout").on("click", function(event) {
         event.preventDefault();
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     });
 
     $("#toStopwatch").on("click", function(event) {

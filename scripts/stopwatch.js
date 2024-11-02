@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     $("#logout").on("click", function(event) {
         event.preventDefault();
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     });
 
     $("#toCalculator").on("click", function(event) {
