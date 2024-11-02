@@ -1,0 +1,97 @@
+@media (max-width: 768px){
+    main{
+        width: 90%;
+    }
+    #login-container{
+        width: 80%;
+    }
+
+    header{
+        width: 90%;
+        margin: 20px auto;
+        justify-content: space-between;
+
+        .logo{
+            h1{
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+            }
+
+            p{
+                font-size: 0.7rem;
+                max-width: 100px;
+                flex-wrap: wrap;
+            }
+        }
+
+        h2{
+            font-size: 1rem;
+            max-width: 150px;
+            text-wrap: wrap;
+        }
+
+        p{
+            font-size: 0.7rem;
+        }
+    }
+
+    .calculator-container{
+        label{
+            font-size: 0.8rem;
+        }
+
+        .operations-container{
+
+            button{
+                padding: 15px 7px;
+
+                img{
+                    width: 50%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .output-container{
+        input{
+            width: 80% !important;
+            font-size: 1rem !important;
+            padding: 10px !important;
+        }
+        button{
+            font-size: 0.9rem !important;
+        }
+    }
+
+    .link-to-other-page{
+        a{
+            font-size: 0.9rem;
+        }
+    }
+
+    #datePicker{
+        font-size: 1.2rem !important;
+    }
+
+    .stopwatch-container{
+        padding: 60px 15px !important;
+        .stopwatch-inner-container{
+            .stopwatch{
+                font-size: 1.5rem !important;
+                line-height: 1.5rem !important;
+                padding: 20px !important;
+            }
+        }
+        
+        .stopwatch-buttons{
+            width: 100%;
+    
+            button{
+                padding: 15px 20px !important;
+            }
+        }
+    }
+
+    
+}

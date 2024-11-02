@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Cali.co - Calculator</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Cali.co</h1>
+            <p>A Calculator &amp; Stopwatch app</p>
+        </div>
+        <div class="greeting">
+            <h2>Hi <span id="username"></span> !</h2>
+            <p><a href="#" id="logout">&lt; Logout &gt;</a></p>
+        </div>
+    </header>
+    <main>
+        <div class="calculator-container">
+            <div class="input-container">
+                <div class="number-input">
+                    <input type="number" id="num1" placeholder="0" value="" required>
+                    <label for="num1">Number 1</label>
+                    <p class="error error-num1">Please enter a number</p>
+                </div>
+                <div id="operation-text"><p id="operation-p">,</p></div>
+                <div class="number-input">
+                    <input type="number" id="num2" placeholder="0" value="" required>
+                    <label for="num2">Number 2</label>
+                    <p class="error error-num2">Please enter a number</p>
+                </div>
+            </div>
+            <div class="operations-container">
+                <button id="add"><img src="assets/operations/add.png" alt="add"></button>
+                <button id="subtract"><img src="assets/operations/subtract.png" alt="subtract"></button>
+                <button id="multiply"><img src="assets/operations/multiply.png" alt="multiply"></button>
+                <button id="divide"><img src="assets/operations/divide.png" alt="divide"></button>
+            </div>
+            <div class="output-container">
+                <input type="text" id="result" readonly value="0">
+                <button type="reset" id="resetBtn">Reset</button>
+            </div>
+        </div>
+        <div class="stopwatch-link link-to-other-page"><a href="#" id="toStopwatch">Check out the Stopwatch >></a></div>
+    </main>
+    <script src="scripts/calculator.js"></script>
+</body>
+</html>

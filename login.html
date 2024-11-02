@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Cali.co - Login</title>
+</head>
+<body>
+    <div id="login-container">
+        <h1>Login to <span class="logo">Cali.co</span></h1>
+        <div class="form-div">
+            <form action="">
+                <div class="login-field">
+                    <input type="text" id="email" placeholder="Email" required minlength="5" maxlength="225">
+                    <p class="error error-email">Please enter valid @northeastern.edu email ID.</p>
+                </div>
+                <div class="login-field">
+                    <input type="text" id="username" placeholder="Username" required minlength="5" maxlength="50">
+                    <p class="error error-username">Username may only contain alphanumeric characters and underscore.</p>
+                </div>
+                <div class="login-field">
+                    <input type="password" id="password" placeholder="Set Password" required minlength="8" maxlength="50">
+                    <p class="error error-password">Password must be 8-15 characters and must include: a lowercase letter, an uppercase letter, a number and a special character. </p>
+                </div>
+                <div class="login-field">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required minlength="8" maxlength="50">
+                    <p class="error error-confirmPassword">Password fields must match. </p>
+                </div>
+                <div class="login-submit">
+                <button id="loginBtn" type="submit" disabled>LOG IN</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/login.js"></script>
+</body>
+</html>

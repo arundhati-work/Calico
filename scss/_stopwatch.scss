@@ -1,0 +1,65 @@
+.stopwatch-container{
+    margin: auto;
+    background-color: #BFE5FC;
+    border-radius: 18px;
+    padding: 60px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #datePicker{
+        background-color: transparent;
+        border: none;
+        color: #093D5D;
+        font-size: 1.3rem;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .stopwatch-inner-container{
+        background-color: #1E6590;
+        color: #FFF;
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        border-radius: 40px;
+
+        .stopwatch{
+            font-size: 2.0rem;
+            line-height: 2.0rem;
+            padding: 30px;
+            font-family: monospace;
+        }
+    }
+
+    .stopwatch-buttons{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+
+        button{
+            color: #C4EA88;
+            background-color: #093D5D;
+            border: none;
+            border-radius: 11px;
+            padding: 15px 30px;
+            font-size: 1rem;
+            font-family: "Poppins", sans-serif;
+            transition: background-color 0.5s ease;
+
+            &:hover{
+                background-color: #072b42;
+            }
+        }
+    }
+}
+
+.calculator-link{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+

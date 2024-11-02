@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Cali.co - Stopwatch</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Cali.co</h1>
+            <p>A Calculator &amp; Stopwatch app</p>
+        </div>
+        <div class="greeting">
+            <h2>Hi <span id="username"></span> !</h2>
+            <p><a href="#" id="logout">&lt; Logout &gt;</a></p>
+        </div>
+    </header>
+    <main>
+        <div class="stopwatch-container">
+            <input type="date" name="datePicker" id="datePicker">
+            <div class="stopwatch-inner-container">
+                <label class="stopwatch">00 : 00 : 00</label>
+            </div>
+            <div class="stopwatch-buttons">
+                <button id="startBtn">Start</button>
+                <button id="pauseBtn">Stop</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+        <div class="link-to-other-page calculator-link"><a href="#" id="toCalculator"><< Back to the Calculator</a></div>
+    </main>
+    <script src="scripts/stopwatch.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.calculator-container{
+    background-color: #093D5D;
+    border-radius: 18px;
+
+
+    .input-container{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        .number-input{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+
+            input{
+                width: 100%;
+                padding: 20px 0;
+                margin: 15px 0;
+                border-radius: 7px;
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-size: 1.3rem;
+                border: none;
+            }
+
+            label{
+                color: #C8EAFF;
+            }
+
+        }
+        #operation-text{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            margin-top: 20px;
+
+            #operation-p{
+                font-family: monospace;
+                color: #C4EA88;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .operations-container{
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        button{
+            background-color: #4681A6;
+            padding: 15px;
+            border: none;
+            border-radius: 4px;
+            transition: background-color 0.4s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover{
+                background-color: #1E6590;
+            }
+        }
+    }
+
+    .output-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+
+        input{
+            width: 60%;
+            background-color: #C4EA88;
+            color:#093D5D;
+            font-size: 1.4rem;
+            font-family: "Poppins", sans-serif;
+            border: none;
+            border-radius: 9px;
+            padding: 15px 13px;
+            text-align: center;
+        }
+
+        button{
+            margin: 30px 0;
+            background-color: transparent;
+            border: none;
+            color: #C4EA88;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.stopwatch-link{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
